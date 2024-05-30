@@ -1,0 +1,83 @@
+
+
+
+.roles-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.test{
+    width: 33%;
+}
+  
+ 
+
+  .charts {
+    flex: 1;
+    
+    display: flex;
+    column-gap: 20px;
+
+  }
+  
+  .chart {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  
+  .chart h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .role-button{
+    border: none;
+    background-color: #f9f9f9;
+  }
+ 
+.user{
+    
+    border: .2px solid ;
+    
+}
+
+.plus-icon{
+    cursor: pointer;
+}
+
+.user-details-popup{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  
+}
+
+
+.user-details{
+  border:solid 0.2px;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+input[type=checkbox]{
+  accent-color:  green;  
+  padding: 2px;
+  }
+.courses{
+  column-gap: 20px;
+}
